@@ -1,0 +1,3 @@
+C:/Users/sarme/Kutuphane/cmake-build-debug/CMakeFiles/kutuphane_sistemi.dir
+C:/Users/sarme/Kutuphane/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sarme/Kutuphane/cmake-build-debug/CMakeFiles/rebuild_cache.dir
