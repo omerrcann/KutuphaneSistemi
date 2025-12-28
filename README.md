@@ -1,7 +1,7 @@
-# Kütüphane Yönetim Sistemi
+# 📚 Kütüphane Yönetim Sistemi
 
 
-## Proje Tanımı
+## 🚀 Proje Tanımı
 
 Bu proje, C++ ve Nesneye Dayalı Programlama (OOP) prensipleri kullanılarak geliştirilmiş, sürdürülebilir ve ölçeklenebilir bir kütüphane otomasyon sistemidir. Sistem; kitap envanterini, üye hareketlerini ve ödünç/iade döngüsünü yönetmektedir.
 
@@ -12,11 +12,11 @@ Proje, **Çok Katmanlı Mimari (3-Tier Architecture)** yapısında tasarlanmış
 
 ---
 
-## Varlık Tanımları ve Demo Verileri
+## 💾 Varlık Tanımları ve Demo Verileri
 
 Aşağıdaki tablolar, sistemdeki 7 temel varlığı ve proje çalıştırıldığında yüklenen **örnek "Harry Potter" veri setini** göstermektedir.
 
-### 1. Kitap (Book)
+### 📖 1. Kitap (Book)
 Kütüphane envanterindeki kitapların tutulduğu temel varlıktır.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -30,7 +30,7 @@ Kütüphane envanterindeki kitapların tutulduğu temel varlıktır.
 | stok_adedi | int | Mevcut Stok | `5` |
 | sayfa_sayisi | int | Sayfa Sayısı | `276` |
 
-### 2. Yazar (Author)
+### ✍️ 2. Yazar (Author)
 Kitap ile ilişkilendirilen yazar bilgileridir.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -40,7 +40,7 @@ Kitap ile ilişkilendirilen yazar bilgileridir.
 | dogum_yili | int | Doğum Yılı | `1965` |
 | ulke | string | Ülke | `"İngiltere"` |
 
-### 3. Kategori (Category)
+### 🏷️ 3. Kategori (Category)
 Kitabın türünü belirtir.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -49,7 +49,7 @@ Kitabın türünü belirtir.
 | ad | string | Kategori Adı | `"Fantastik Kurgu"` |
 | aciklama | string | Açıklama | `"Büyü ve hayali evrenleri konu alır."` |
 
-### 4. Yayinevi (Publisher)
+### 🏢 4. Yayinevi (Publisher)
 Kitabı basan kurum bilgisidir.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -59,7 +59,7 @@ Kitabı basan kurum bilgisidir.
 | adres | string | Adres | `"Levent, İstanbul"` |
 | telefon | string | Telefon | `"0212 123 45 67"` |
 
-### 5. Uye (Member)
+### 👥 5. Uye (Member)
 Kütüphane hizmetlerinden yararlanan kullanıcılar.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -71,7 +71,7 @@ Kütüphane hizmetlerinden yararlanan kullanıcılar.
 | telefon | string | Telefon | `"0555 111 22 33"` |
 | kayit_tarihi | string | Kayıt Tarihi | `"2025-10-01"` |
 
-### 6. OduncAlma (Loan)
+### 🔄 6. OduncAlma (Loan)
 Aktif veya tamamlanmış ödünç işlemleri.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -83,7 +83,7 @@ Aktif veya tamamlanmış ödünç işlemleri.
 | iade_tarihi | string | Son Tarih | `"2025-12-15"` |
 | durum | string | Durum | `"Devam Ediyor"` |
 
-### 7. Rezervasyon (Reservation)
+### 📅 7. Rezervasyon (Reservation)
 İstenen kitap stokta yoksa sıraya girmek için oluşturulan kayıttır.
 
 | Alan | Tip | Açıklama | Örnek Veri (Demo) |
@@ -96,7 +96,7 @@ Aktif veya tamamlanmış ödünç işlemleri.
 
 ---
 
-## Varlık İlişkileri
+## 🔗 Varlık İlişkileri
 
 Sistemdeki ilişkisel yapı aşağıdaki gibidir:
 * Bir **Yazar** birden fazla **Kitap** yazabilir (1-n).
@@ -107,7 +107,7 @@ Sistemdeki ilişkisel yapı aşağıdaki gibidir:
 
 ---
 
-## Servis İşlemleri
+## ⚙️ Servis İşlemleri
 
 Sistem, iş mantığını yöneten 11 temel fonksiyon üzerine kurulmuştur:
 
@@ -125,7 +125,7 @@ Sistem, iş mantığını yöneten 11 temel fonksiyon üzerine kurulmuştur:
 
 ---
 
-## Derleme ve Çalıştırma
+## 💻 Derleme ve Çalıştırma
 
 Proje, macOS ve Linux ortamlarında terminal üzerinden kolayca derlenebilir.
 
